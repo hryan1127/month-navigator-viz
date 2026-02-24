@@ -11,8 +11,9 @@
       "name": "Month Navigator",
       "iconUrl": "",
       "resource": {
-        "js": "index.js",
-        "css": "style.css"
+        "js": "gs://mpf-looker-viz-dev/index.js",
+        "config": "gs://mpf-looker-viz-dev/config.json",
+        "css": "gs://mpf-looker-viz-dev/style.css"
       }
     }
   ],
