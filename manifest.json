@@ -1,0 +1,22 @@
+{
+  "name": "Month Navigator",
+  "organization": "MP&F Strategic Communications",
+  "description": "Tableau-style month navigation control for Looker Studio",
+  "logoUrl": "",
+  "supportUrl": "",
+  "devMode": true,
+  "components": [
+    {
+      "id": "month-navigator",
+      "name": "Month Navigator",
+      "iconUrl": "",
+      "resource": {
+        "js": "index.js",
+        "css": "style.css"
+      }
+    }
+  ],
+  "configuration": {
+    "style": "config.json"
+  }
+}
