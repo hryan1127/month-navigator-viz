@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "id": "date_nav",
+      "label": "Date Navigation Fields",
+      "elements": [
+        {
+          "id": "month_key",
+          "label": "Month Key (YYYY-MM)",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "month_label",
+          "label": "Month Label (e.g., February 2026)",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "month_start",
+          "label": "Month Start (Date)",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "row_metric",
+          "label": "Metric (any, used to return rows)",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "appearance",
+      "label": "Appearance",
+      "elements": [
+        {
+          "type": "FONT_COLOR",
+          "id": "label_color",
+          "label": "Label color",
+          "defaultValue": "#1f1f1f"
+        },
+        {
+          "type": "FONT_SIZE",
+          "id": "label_size",
+          "label": "Label size",
+          "defaultValue": 14
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "date_nav_filter",
+      "supportedActions": ["FILTER"]
+    }
+  ]
+}
